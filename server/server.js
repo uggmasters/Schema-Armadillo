@@ -33,11 +33,11 @@ app.use(
 );
 
 app.use(express.static('img'));
+app.use(express.static('build'));
 
 app.use('/auth', user);
 app.use('/api', schema);
 app.use('/github', githubRouter);
-
 
 // using this as last possible route *NOTICE* how this is last path in the file
 app.get('/*', (req, res) => {
