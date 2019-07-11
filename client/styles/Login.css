@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4E6;
+}
+
+.loginContainer {   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    margin-top: 70px;
+}
+
+.SignupContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    margin-top: 70px;
+}
+
+.signupForm {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #4a4e69;
+    width: 40%;
+}
+
+.loginForm {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 40%;
+    background-color: white;
+}
+
+.loginForm Input {
+    color: #4a4e69;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.signupForm Input {
+    background-color: #4a4e69;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.loginButton {
+    background-color: #4a4e69;
+    color: white !important;
+    width: 170px;
+    height: 50px;
+    font-size: 30px !important;
+    font-family: "Optima";
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.signupButton {
+    background-color: white !important;
+    color: #4a4e69 !important;
+    width: 150px;
+    height: 50px;
+    font-size: 30px !important  ;
+    font-family: "Optima";
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Optima";
+    font-size: 35px;
+    color: #4a4e69;
+}
+
+.signup {
+    font-size: 35px;
+    color: white;
+}
+.entry {
+    width: 295px;
+    height: 35px;   
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 1px #4a4e69 solid; 
+}
+
+.entry:focus {
+    outline: none;
+}
+
+.emailField {
+    margin: 20px;
+}
+
+.passwordField {  
+    margin: 10px;
+}
+
+#armadillo{
+  width: 20%;
+  height: 20%;
+  animation: spin infinite 5s linear;
+  margin-bottom: 5%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
